@@ -1,30 +1,34 @@
 /*
-let playerMove = "rock";
 let computerMove = "paper";
 */
+let playerMove = prompt("rock, paper, scissors?");
+const moves = ["rock", "paper", "scissors"];
+let computerMove = moves[Math.floor(Math.random() * moves.length)];
 
 function getWinner(playerMove, computerMove) { 
     if (playerMove == computerMove) {
-        return ("0");
+        alert("0");
     }
     else {
         if (playerMove == "rock" && computerMove == "paper"){
-        return ("-1");
+        alert("-1");
     }
     else if (playerMove == "rock" && computerMove == "scissors"){
-        return ("+1");
+        alert("+1");
     }
     else if (playerMove == "paper" && computerMove == "rock"){
-        return ("+1");
+        alert("+1");
     }
     else if (playerMove == "paper" && computerMove == "scissors"){
-        return("-1");
+        alert ("-1");
     }
     else if (playerMove == "scissors" && computerMove == "rock"){
-        return("-1");
+        alert("-1");
     }
     else if (playerMove == "scissors" && computerMove == "paper"){
-        return ("+1");
+        alert("+1");
     }
     }  
 }
+
+getWinner (playerMove, computerMove);
