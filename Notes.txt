@@ -1,0 +1,35 @@
+if playerMove is equal to computerMove, game is a draw.
+else if, playerMove not equal to computerMove, run different if statement to determine winner. 
+
+ all possible outcomes to be coded into script - 
+
+Playermove = rock
+Computermove = paper 
+Result lose (-1 point)
+
+Playermove = rock
+Computermove = scissors
+Result win (+1 point)
+
+Playermove = paper
+Computer move = rock
+Result win (+1 point)
+
+Playermove = paper 
+Computermove = scissors
+Result lose (-1 point)
+
+Playermove = scissors
+Computermove = rock
+Result lose (-1 point)
+
+Playermove = scissors
+Computermove = paper 
+Result win (+1 point)
+*/
+
+// attempt to run 3 if statements - 
+
+/* these are the arrays for object 'playerMove; & 'computerMove'
+playerMove ["rock", "paper", "scissors"]
+computerMove ["rock", "paper", "scissors"]
