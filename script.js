@@ -13,7 +13,7 @@ function Capitalised(userName){
     return Boolean(userName.match(/^[A-Z]/));
 }
 
-while ((userName.length > 10) || (onlyLetters(userName) == false) || ( Capitalised(userName) == false)) {
+while ((userName.length > 10) || (onlyLetters(userName) == false) || (Capitalised(userName) == false)) {
     alert("Sorry, your name doesn't meet the criteria");
     userName = prompt(`Hi, what's your name?
 
